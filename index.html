@@ -26,44 +26,71 @@
     </nav>
 
     <!-- Hero/Intro Section -->
-    <section id="hero">
-        <h1>Hi, I'm Lucas Conrad</h1>
-        <p>A Computer Science Major, with a Minor in Data Analysis and Cybersecurity at Drake University.</p>
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1>Hi, I'm Lucas Conrad</h1>
+                    <p>A Computer Science Major, with a Minor in Data Analysis and Cybersecurity at Drake University.</p>
+                </div>
+            <div class="col-lg-4 text-center">
+                <img src="images/profile.jpg" alt="Lucas Conrad" class="img-fluid" style="max-width: 200px;">
+        </div>
+        
     </section>
 
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Write a few sentences about yourself here. What are you studying? What interests you about web development? What are your goals?</p>
+        <p>I am currently a senior at Drake University with aspirations of going into the Cybersecurity field in the future.</p>
         <p>This is your chance to show your personality and what makes you unique as a developer.</p>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        
-        <div class="project">
-            <h3>Wordle Game</h3>
-            <p>Interactive word-guessing game built with HTML, CSS, and JavaScript. Features keyboard input and color-coded feedback.</p>
-            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-            <a href="#">View Project</a> | <a href="#">View Code</a>
-        </div>
-
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>Personal portfolio showcasing web development projects and skills. Built with responsive design principles.</p>
-            <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
-            <a href="#">View Project</a> | <a href="#">View Code</a>
-        </div>
-
-        <div class="project">
-            <h3>Future Project</h3>
-            <p>Exciting new project coming soon! Check back for updates.</p>
-            <p><strong>Technologies:</strong> TBD</p>
-            <a href="#">Coming Soon</a>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="images/Wordle.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Wordle</h5>
+                        <p class="card-text">Recreated the NY times game using HTML and JavaScript. Should still complete the project to work on more than one word</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        <!-- Repeat for more projects -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="images/WorkItOut.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Work-It-Out</h5>
+                        <p class="card-text">Group project from a college course. My group designed a website to help user keep track of a workout routine. Can no longer access it.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="images/Portfolio.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">Creating a professional portfolio to show off my projects and other achievements</p>
+                        <a href="index.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Future Projects</h5>
+                        <p class="card-text">More coming soon</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact">
         <h2>Get In Touch</h2>
