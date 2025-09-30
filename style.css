@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     line-height: 1.6;
     color: #333;
 
@@ -14,7 +14,8 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: #c6e6ed7b;
+    color: #03608e;
     padding: 1rem 0;
 }
 
@@ -33,7 +34,7 @@ nav a {
 
 nav a:hover {
     background-color: #555;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 /* Sections */
@@ -107,7 +108,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #006f97;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -127,4 +128,38 @@ footer {
     #hero h1 {
         font-size: 2rem;
     }
+}
+
+/* Make icons consistent with your design */
+i[data-lucide] {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Or for Material Icons */
+.material-icons {
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Custom colors and hover effects */
+.social-link:hover i {
+    color: var(--your-accent-color);
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #3498db, #666);
+    border: gray;
+    color: #f0f0f0;
+}
+
+/* Use Bootstrap classes but add your flair */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,5000,0,3.2);
+    background-color: #c5c5c5;
 }
